@@ -2,8 +2,6 @@ import { GoogleLogin, GoogleOAuthProvider } from "@react-oauth/google";
 import jwt_decode from "jwt-decode";
 import { LoggedUser } from "../../types/LoggedUser";
 
-console.log(process.env);
-
 type Props = {
   onSetUser: (user: LoggedUser | null) => void;
 }
