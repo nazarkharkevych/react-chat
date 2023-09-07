@@ -1,0 +1,76 @@
+@import '../../styles/imports.scss';
+
+.Chat {
+  height: 100%;
+
+  @include onMediumScreen {
+    display: inline-block;
+    width: 40%;
+
+    border-right: 1px solid $c-grey-outline;
+  }
+
+  &__header {
+    padding: 10px;
+
+    background-color: $c-grey;
+    border-bottom: 1px solid $c-grey-outline;
+
+    &-top {
+      display: flex;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__user-image {
+    max-width: 40px;
+    min-width: 30px;
+  }
+
+  &__user-name {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 10px;
+  }
+
+  &__logout {
+    margin-top: 5px;
+    margin-left: auto;
+    padding: 5px;
+
+    border: 1px solid $c-grey-outline;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  &__search {
+    margin: 0;
+    padding: 5px 5px 5px 30px;
+    width: 100%;
+
+    border: 1px solid $c-grey-outline;
+    border-radius: 20px;
+
+    background: 5px no-repeat url('../../images/search.png');
+    background-color: white;
+
+    &::placeholder {
+      padding-left: 30px;
+      font-size: 12px;
+    }
+  }
+
+  &__users {
+    & > h2 {
+      padding: 25px 0 0 10px;
+      margin-bottom: 35px;
+
+      font-size: 22px;
+      color: skyblue;
+    }
+  }
+
+  &__users-not-found {
+    text-align: center;
+  }
+}

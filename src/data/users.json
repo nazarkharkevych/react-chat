@@ -1,0 +1,135 @@
+{
+  "results": [
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Edir",
+        "last": "Costa"
+      },
+      "login": {
+        "uuid": "438f51c9-943e-4c30-b2f5-5435946a7022",
+        "username": "yellowfrog393",
+        "password": "brando",
+        "salt": "Lsn3XndD",
+        "md5": "a506068baa1e11b87392666ae23e5d62",
+        "sha1": "ea3ee80565d06a472e3064c42afb7cc93dbbcc94",
+        "sha256": "4a215b10d16306b0a0526e432bc9f2ac7c78cc3c679001801808300519a1be63"
+      },
+      "registered": {
+        "date": "2006-11-11T04:36:45.428Z",
+        "age": 16
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/36.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/36.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/36.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Ayaan",
+        "last": "Shenoy"
+      },
+      "login": {
+        "uuid": "a26efc74-b695-4fec-8674-5c802da67a16",
+        "username": "yellowleopard548",
+        "password": "0420",
+        "salt": "GTrFz99Q",
+        "md5": "b5493941a62a48c818749fd4152a3505",
+        "sha1": "73ef3b6b16a731a62f86321114baaa332f802fd7",
+        "sha256": "b3474f13f36f5e2db8d18e3efd149b1bad27f6253a1bd09268d35be9b1c7007b"
+      },
+      "registered": {
+        "date": "2002-06-04T07:19:11.319Z",
+        "age": 21
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/44.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/44.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/44.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Mrs",
+        "first": "Berdine",
+        "last": "Salhi"
+      },
+      "login": {
+        "uuid": "486ffa0f-8710-4775-8d1a-ba5a05306dac",
+        "username": "blackpanda418",
+        "password": "garbage",
+        "salt": "fqFLitZl",
+        "md5": "2a0864ca2563f993838769b4bd5158ea",
+        "sha1": "c4017340c60d911ebdfa772036bf1f6047852283",
+        "sha256": "7fa8ad8425e020799b599a90fe239e22527473a8b3be097182fedf8c367f9d36"
+      },
+      "registered": {
+        "date": "2002-10-21T05:12:34.680Z",
+        "age": 20
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/74.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/74.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/74.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Monsieur",
+        "first": "Jean-Luc",
+        "last": "Lefebvre"
+      },
+      "login": {
+        "uuid": "41158851-8f81-4bd1-9647-ec39148924d3",
+        "username": "sadwolf196",
+        "password": "moonshin",
+        "salt": "xidHjnC8",
+        "md5": "1b2a64b0b31b2be292ef8653e0f0377b",
+        "sha1": "b8470ba63d3cb9b6a4ef466078760c277bc6f351",
+        "sha256": "2e7d8c76179d8261ba7e0105076529d5457a8c64d6c9389f2a68c1b45cf41fcd"
+      },
+      "registered": {
+        "date": "2019-06-20T07:09:07.801Z",
+        "age": 4
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/29.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/29.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/29.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Miss",
+        "first": "Marilaine",
+        "last": "Silva"
+      },
+      "login": {
+        "uuid": "b5c0c60b-43cb-4a4e-a124-c225782db9a9",
+        "username": "purpleelephant736",
+        "password": "oooooooo",
+        "salt": "ulBZynLf",
+        "md5": "d45b311d82b2a2df888f9c833375bf24",
+        "sha1": "78f4a47833cd2aa4d610b00a996b107e4c9005a7",
+        "sha256": "c36a247ec0330c01a6e3613fa391357d5c6437b1fdf4697d82c7379ff44982e9"
+      },
+      "registered": {
+        "date": "2006-06-26T20:02:38.497Z",
+        "age": 17
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/3.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/3.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/3.jpg"
+      }
+    }
+  ],
+  "info": {
+    "seed": "0694b2063fc63b55",
+    "results": 5,
+    "page": 1,
+    "version": "1.4"
+  }
+}

@@ -1,0 +1,31 @@
+@import '../../styles/imports.scss';
+
+.GoBackLink {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  
+  font-family: inherit;
+  color: black;
+
+  &:active {
+    color: $c-grey-outline;
+  }
+
+  &::before {
+    content: "";
+    position: relative;
+    right: 2px;
+    width: 16px;
+    height: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    background: no-repeat center url("../../images/Arrow.svg");
+    transform: rotate(180deg);
+  }
+}

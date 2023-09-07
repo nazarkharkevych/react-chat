@@ -1,0 +1,107 @@
+@import '../../styles/imports.scss';
+
+.ChatRoom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  z-index: 2;
+
+  background-color: white;
+
+  @include onMediumScreen {
+    position: relative;
+    float: right;
+    width: 60%;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+    background-color: $c-grey;
+    border-bottom: 1px solid $c-grey-outline;
+
+    &-go-back {
+      margin-right: 10px;
+
+      @include onMediumScreen {
+        display: none;
+      }
+    }
+
+    &-user {
+      &-name {
+        padding-left: 10px;
+  
+        font-size: 18px;
+      }
+  
+      &-image {
+        max-width: 40px;
+    
+        & > img {
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+
+  &__messages {
+    padding: 15px 10px 30px;
+    height: 100%;
+
+    overflow-y: auto;
+    
+    & > ul {
+      & > li:not(:last-child) {
+        padding-bottom: 30px;
+      }
+    }
+  }
+
+  &__send-form {
+    position: relative;
+    padding: 20px;
+
+    background-color: $c-grey;
+    border-top: 1px solid $c-grey-outline;
+
+    &-input {
+      width: 100%;
+      padding: 15px;
+
+      border: 1px solid $c-grey-outline;
+      border-radius: 20px;
+      font-size: 14px;
+
+      &::placeholder {
+        font-size: 14px;
+        color: $c-grey-outline;
+      }
+    }
+
+    &-button {
+      position: absolute;
+      top: 34px;
+      right: 35px;
+
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+  }
+
+  &__not-found {
+    padding-top: 40%;
+
+    font-weight: 500;
+    text-align: center;
+  }
+}

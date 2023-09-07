@@ -1,0 +1,14 @@
+@import '../../styles/imports.scss';
+
+.ChatRoomEmpty {
+  display: none;
+  height: 100%;
+
+  @include onMediumScreen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 60%;
+  }
+}

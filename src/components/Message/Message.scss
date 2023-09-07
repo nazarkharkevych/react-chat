@@ -1,0 +1,66 @@
+@import '../../styles/imports.scss';
+
+.Message {
+  position: relative;
+
+  &[data-type=user] {
+    & > .Message__body {
+      justify-content: end;
+
+      & > .Message__text {
+        background-color: $c-message-user;
+      }
+    }
+
+    & > .Message__time {
+      text-align: right;
+    }
+  }
+
+  &[data-type=response] {
+    & > .Message__body {
+      justify-content: start;
+
+      & > .Message__text {
+        margin-left: 10px;
+  
+        background-color: $c-message-response;
+        color: white;
+      }
+    }
+
+    & > .Message__time {
+      margin-left: 65px;
+    }
+  }
+
+  &__body {
+    display: flex;
+    align-items: center;
+  }
+
+  &__user-image {
+    max-width: 40px;
+
+    & > img {
+      border-radius: 50%;
+    }
+  }
+
+  &__text {
+    max-width: 70%;
+    padding: 10px;
+
+    font-size: 13px;
+    word-break: break-word;
+
+    border-radius: 24px;
+  }
+
+  &__time {
+    margin-top: 10px;
+    
+    font-size: 10px;
+    color: dimgrey;
+  }
+}
