@@ -2,7 +2,7 @@ import { GoogleLogin, GoogleOAuthProvider } from "@react-oauth/google";
 import jwt_decode from "jwt-decode";
 import { LoggedUser } from "../../types/LoggedUser";
 
-const CLIENT_ID = process.env.REACT_APP_CLIENT as string;
+console.log(process.env);
 
 type Props = {
   onSetUser: (user: LoggedUser | null) => void;
@@ -22,7 +22,7 @@ export const GoogleLoginProvider: React.FC<Props> = ({ onSetUser }) => {
   };
 
   return (
-    <GoogleOAuthProvider clientId={CLIENT_ID}>
+    <GoogleOAuthProvider clientId={process.env.REACT_APP_CLIENT as string}>
       <GoogleLogin
         onSuccess={handleCredentialsResponse}
         onError={() => {
